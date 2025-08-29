@@ -1,0 +1,20 @@
+dorkerdevil
+title: AppSuite PDF Editor Backdoor Scheduled Task Detection
+description: Detects suspicious scheduled tasks created by AppSuite PDF Editor backdoor
+status: experimental
+author: dorkerdevil
+date: 2025/08/29
+detection:
+    selection:
+        TaskName:
+            - 'PDFEditorScheduledTask'
+            - 'PDFEditorUScheduledTask'
+            - 'ShiftLaunchTask'
+            - 'OneLaunchLaunchTask'
+            - 'WaveBrowser-StartAtLogin'
+    condition: selection
+fields:
+    - TaskName
+falsepositives:
+    - Legitimate software with similar task names (unlikely)
+level: high
