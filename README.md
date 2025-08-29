@@ -12,6 +12,14 @@ AppSuite PDF Editor is a trojanized Electron-based PDF editor distributed via hi
   - `UtilityAddon.node` (helper DLL)
   - `PDF Editor.exe` (Electron launcher)
   - `LOG1`, `LOG0` (encoded JSON config files)
+- **Sample Hashes (SHA256):**
+  - MSI installer: `fde67ba523b2c1e517d679ad4eaf87925c6bbf2f171b9212462dc9a855faa34b`
+  - `pdfeditor.js`: `b3ef2e11c855f4812e64230632f125db5e7da1df3e9e34fdb2f088ebe5e16603`
+  - `UtilityAddon.node`: `6022fd372dca7d6d366d9df894e8313b7f0bd821035dd9fa7c860b14e8c414f2`
+  - `PDFEditorSetup.exe`: `da3c6ec20a006ec4b289a90488f824f0f72098a2f5c2d3f37d7a2d4a83b344a0`
+  - `PDF Editor.exe`: `cb15e1ec1a472631c53378d54f2043ba57586e3a28329c9dbf40cb69d7c10d2c`
+  - `Uninstall PDF Editor.exe`: `956f7e8e156205b8cbf9b9f16bae0e43404641ad8feaaf5f59f8ba7c54f15e24`
+  - Deobfuscated `pdfeditor.js`: `104428a78aa75b4b0bc945a2067c0e42c8dfd5d0baf3cb18e0f6e4686bdc0755`
 - **Scheduled Tasks:**
   - `PDFEditorScheduledTask`
   - `PDFEditorUScheduledTask`
